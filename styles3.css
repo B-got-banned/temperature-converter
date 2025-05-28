@@ -1,0 +1,54 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(237, 237, 237);
+}
+
+.tempContainer{
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  background: white;
+  padding: 30px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(74, 74, 74);
+}
+
+#tempBox{
+  width: 90px;
+  text-align: center;
+  transition: scale 0.25s;
+  font-size: 15px;
+}
+
+#tempBox:hover{
+  scale: 1.1;
+}
+
+label, p{
+  font-weight: 550;
+}
+
+.tempConv{
+  font-size: 14px;
+}
+
+#tempLabel, #cToF, #fToC{
+  color: rgb(119, 171, 255);
+  cursor: pointer;
+}
+
+#tempSubmit{
+  background: rgb(255, 66, 66);
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  transition: background 0.25s;
+  transition: scale 0.25s;
+  cursor: pointer;
+}
+
+#tempSubmit:hover{
+  background: rgb(183, 47, 47);
+  scale: 1.1;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Website</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body onload="getElementById('tempBox').focus()">
+  <div class="tempContainer">
+    <label for="tempBox" id="tempLabel">Temperature Conversion:</label><br><br>
+    <input id="tempBox" placeholder="Enter temp"><br><br>
+
+    <input type="radio" id="cToF" name="temp">
+    <label for="cToF" class="tempConv">Celsius &rArr; Fahrenheit</label><br>
+
+    <input type="radio" id="fToC" name="temp">
+    <label for="fToC" class="tempConv">Fahrenheit &rArr; Celsius</label><br><br>
+
+    <button type="submit" id="tempSubmit">Submit</button><br>
+    <p id="temp"></p>
+
+  </div>
+  <script src="index3.js"></script>
+</body>
+</html>
