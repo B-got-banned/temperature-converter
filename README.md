@@ -27,4 +27,4 @@ Try it live here:
 
 ---
 
-Created with 💙 by B-got-banned
+Created with 💙 by [B-got-banned](https://github.com/B-got-banned)
